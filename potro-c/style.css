@@ -363,7 +363,7 @@ body::before {
 .footer {
     position: relative;
     background-color: #050505;
-    padding: 60px 20px 120px;
+    padding: 60px 20px 120px;  /* Más padding abajo para dar espacio al logo */
     text-align: center;
     z-index: 2;
 }
