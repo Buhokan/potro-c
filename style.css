@@ -277,6 +277,7 @@ body::before {
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .btn-more:hover {
@@ -374,7 +375,7 @@ body::before {
 }
 
 .watermark {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     right: 30px;
     opacity: 0.6;
@@ -387,7 +388,7 @@ body::before {
 }
 
 .watermark-logo {
-    width: 150px;              /* Ajusta según el tamaño de tu logo */
+    width: 170px;              /* Ajusta según el tamaño de tu logo */
     height: auto;
     filter: drop-shadow(0 4px 8px rgba(26, 77, 46, 0.4));
 }
